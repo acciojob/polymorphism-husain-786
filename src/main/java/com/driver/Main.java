@@ -10,8 +10,9 @@ public class Main
     }
 	public static void main(String[] args) {
 	    Product p = new Product();
-	    System.out.println(product(5, 10));
-	    System.out.println(product(5, 10, 20));
-	    System.out.println(product(5d, 10d));
+	    System.out.println(p.product(5, 10));
+	    System.out.println(p.product(5, 10, 20));
+	    System.out.println(p.product(5d, 10d));
 	}
 }
+
